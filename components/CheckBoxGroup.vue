@@ -29,7 +29,8 @@
     font-weight: 900;
 }
 .form-check-label {
-  font-family: 'Lato';
+  font-family: "Lato";
+  
 }
 .checkbox {
         width: 174px;
