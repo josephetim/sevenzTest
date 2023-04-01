@@ -1,0 +1,7 @@
+@font-face {
+    font-family: "Avenir";
+    src: local("Avenir"), url(../assets/Metropolis-Regular.otf) format("opentype");}
+
+@font-face {
+    font-family: "Product Sans";
+    src: local("Product Sans"), url(../assets/ProductSansRegular.ttf) format("truetype");}
