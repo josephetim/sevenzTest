@@ -5,3 +5,7 @@
 @font-face {
     font-family: "Product Sans";
     src: local("Product Sans"), url(../assets/ProductSansRegular.ttf) format("truetype");}
+
+@font-face {
+    font-family: "Lato";
+    src: local("Lato"), url(../assets/Lato-Regular.ttf) format("truetype");}
