@@ -102,12 +102,6 @@ export default {
   
     methods: {
         async handleSubmit() {
-
-        // Make sure at least one checkbox is selected
-        if (this.selectedItemsArray.length === 0) {
-            alert('Please select at least one checkbox');
-            return;
-        }
     // Make the POST request
     await fetch("https://testdrive.kompletecare.com/api/investigations", {
       method: "POST",
