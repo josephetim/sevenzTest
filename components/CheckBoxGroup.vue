@@ -15,6 +15,7 @@
 
 
 <style scoped>
+@import url('https://fonts.googleapis.com/css2?family=Lato');
 .purple{
     color:  #382F90;
 }
@@ -23,9 +24,12 @@
         line-height: 25px;
 }
 .avenir-normal-900 {
-    font-family: 'Avenir';
+    font-family: "Avenir";
     font-style: normal;
     font-weight: 900;
+}
+.form-check-label {
+  font-family: 'Lato';
 }
 .checkbox {
         width: 174px;
