@@ -113,7 +113,7 @@ export default {
             return;
         }
     // Make the POST request
-    await fetch("http://testdrive.kompletecare.com/api/investigations", {
+    await fetch("https://testdrive.kompletecare.com/api/investigations", {
       method: "POST",
       headers: {
         "Content-Type": "application/json"
@@ -151,7 +151,7 @@ export default {
     },
   },
     created() {
-      const url = 'http://testdrive.kompletecare.com/api';
+      const url = 'https://testdrive.kompletecare.com/api';
       const endpoint = url + '/investigations';
       const token = '5111|Vw8oJD9IhXgsUsWiRVcppNaeA7ow96QOyUaecwIX';
 
