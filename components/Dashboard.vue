@@ -99,16 +99,12 @@ export default {
         }
         
     },
-    computed: {
-      hasSelectedItems() {
-        return this.selectedItemsArray.length > 0;
-      }
-    },
+  
     methods: {
         async handleSubmit() {
 
         // Make sure at least one checkbox is selected
-        if (this.selectedItems.length === 0) {
+        if (this.selectedItemsArray.length === 0) {
             alert('Please select at least one checkbox');
             return;
         }
@@ -141,15 +137,7 @@ export default {
         'success-modal': SuccessModal
 
     },
-    watch: {
-    selectedItemsArray() {
-      this.$nextTick(() => {
-        // Re-enable the button after a checkbox is clicked
-        const button = document.getElementById("submitButton");
-        button.disabled = this.selectedItemsArray.length === 0;
-      });
-    },
-  },
+
     created() {
       const url = 'https://testdrive.kompletecare.com/api';
       const endpoint = url + '/investigations';
